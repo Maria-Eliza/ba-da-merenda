@@ -1,0 +1,97 @@
+@font-face {
+    font-family: poderosas;
+    src: url(../fontes/powerpuff\ girls\ font.ttf);
+}
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+h1{
+    font-family: poderosas;
+    text-align: center;
+}
+h2{
+    font-family: poderosas;
+    text-align: center;
+}
+#menu{
+    background-color: lightgray;
+    height: 15vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #84b6f4;
+    margin-top: 60px;
+}
+#menu a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-weight: 900;
+    
+    
+}
+#projeto{
+    background-color: #ff6961;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 30px;
+
+}
+#projeto img{
+    width: 30vw;
+    
+    
+}
+#montar{
+    background-color: blue;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 30px;
+
+}
+#fotos{
+    background-color: green;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 30px;
+
+}
+#equipe{
+    background-color: yellow;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 30px;
+
+}
+#equipe #pai{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+#equipe #pai .linha{
+    display: flex;
+    width: 80vw;
+    height: 30vh;
+    gap: 20px;
+}
+#equipe #pai .linha .coluna{
+    display: flex;
+    width: 40vw;
+    height: 30vh;
+    border: solid 3px red;
+    gap: 20px;
+}
