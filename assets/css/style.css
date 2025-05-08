@@ -19,18 +19,18 @@ body{
    
 }
 header{
-    height: 17vh;
+    height: 15vh;
     padding: 10px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #835c22;
-    border: solid 5px #29231b;
+    background-color: #fdfdfd;
+    border: solid 3px #29231b;
     
         
 }
 header #nome{
-    width: 8%;
+    width: 12%;
     height: 100%;
        
 }
@@ -47,7 +47,7 @@ header #nome{
     text-decoration: none;
     font-size: 15px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: white;
+    color: black;
     font-weight: 900;
     
     
