@@ -13,6 +13,10 @@ body{
 }
 #nome{
     width: 300px;
+    
+}
+#bau:hover{
+     scale: 1.1;
 }
 #slogan{
     width: 300px;
