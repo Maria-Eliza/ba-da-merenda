@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    flex-direction: column;
+    gap: 2vh;
+
+}
+#nome{
+    width: 300px;
+}
+#slogan{
+    width: 300px;
+}
