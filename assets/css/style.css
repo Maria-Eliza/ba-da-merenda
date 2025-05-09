@@ -27,6 +27,7 @@ header{
     background-color: #fdfdfd;
     border: solid 3px #29231b;
     
+    
         
 }
 header #nome{
@@ -49,6 +50,11 @@ header #nome{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: black;
     font-weight: 900;
+    
+    
+}
+#menu a:hover{
+    scale: 1.03;
     
     
 }
